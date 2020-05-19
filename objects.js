@@ -30,11 +30,11 @@ function getMelonsAtPrice(price) {
     };
 
     if (! melonPrices.hasOwnProperty(price)) {
-        return
+        return;
     }
 
-    return melonPrices[price].sort()
+    return melonPrices[price].sort();
 }
 
-console.log(getMelonsAtPrice(3.25))
-console.log(getMelonsAtPrice(3.28))
+console.log(getMelonsAtPrice(3.25));
+console.log(getMelonsAtPrice(3.28));
